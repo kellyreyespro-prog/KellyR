@@ -1,75 +1,58 @@
 <div align="center">
 
-# 💜 MI RITUAL
+# 💜 ALÉA ✦
+### Tu espacio personal de autocuidado y bienestar
+**Aplicación web instalable (PWA)** · Creada por **Kelly Reyes** 🇵🇦
 
-### Autocuidado, bienestar y tecnología
-
-**Proyecto web de Kelly Reyes** · 🇵🇦 Panamá
-
-![HTML5](https://img.shields.io/badge/HTML5-151020?style=for-the-badge&logo=html5&logoColor=bb86fc)
-![CSS3](https://img.shields.io/badge/CSS3-151020?style=for-the-badge&logo=css&logoColor=bb86fc)
-![JavaScript](https://img.shields.io/badge/JavaScript-151020?style=for-the-badge&logo=javascript&logoColor=bb86fc)
-
-[![Instagram](https://img.shields.io/badge/Instagram-@kellyreyes__14-8b5cf6?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kellyreyes_14/)
+[![Abrir ALÉA](https://img.shields.io/badge/Abrir-AL%C3%89A-7c3aed?style=for-the-badge)](https://kellyreyespro.github.io/KellyR/alea.html)
+[![Instagram](https://img.shields.io/badge/Instagram-@kellyreyes__14-4b245d?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kellyreyes_14/)
 
 </div>
 
----
+## ✨ ¿Qué es ALÉA?
 
-## 🌸 Acerca de Mi Ritual
+**ALÉA** es la evolución de **Mi Ritual v0.1**, una aplicación para organizar rutinas de rostro, cuerpo, cabello y bienestar. Su nueva puerta de entrada `alea.html` permite instalarla desde un navegador compatible, con icono propio y aspecto de aplicación.
 
-**Mi Ritual v0.1** es una aplicación web enfocada en organizar rutinas personales de autocuidado y bienestar en un solo espacio. Reúne secciones de cuidado facial, corporal, capilar y otros hábitos de belleza, con una interfaz sencilla y cálida.
+## 📲 Instalar en tu dispositivo
 
-### ✨ Funcionalidades de esta versión
+**Android:** abre [ALÉA](https://kellyreyespro.github.io/KellyR/alea.html) en Chrome y pulsa **Instalar ALÉA** o elige «Añadir a pantalla de inicio» en el menú.
 
-- Interfaz web adaptable con HTML, CSS y JavaScript.
-- Secciones para explorar y organizar rutinas de autocuidado.
-- Enfoque en recomendaciones y hábitos personalizados.
-- Base para iniciar sesión y guardar perfiles con un servicio de autenticación que debe configurarse antes de producción.
+**iPhone/iPad:** abre el enlace en Safari, toca **Compartir → Añadir a pantalla de inicio**.
 
-## 👩‍💻 Sobre la creadora
+**Computadora:** abre el enlace desde Chrome o Edge y utiliza **Instalar** en la barra de direcciones o en el menú.
 
-¡Hola! Soy **Kelly Reyes**, estudiante de Informática y futura desarrolladora de software. 🇵🇦
+> ⚠️ Primero debes activar **GitHub Pages** en este repositorio desde **Settings → Pages**, con **Deploy from a branch → main → /(root)**. La aplicación debe abrirse por HTTPS para instalarse. El soporte depende del dispositivo/navegador.
 
-Me apasionan la **tecnología, el desarrollo de software y el análisis de datos**. Me gusta aprender, construir proyectos útiles y transformar ideas en experiencias digitales.
+## 🛠️ Tecnologías
 
-> 🌱 Siempre aprendiendo, siempre creando.
+HTML5 · CSS3 · JavaScript · Web App Manifest · Service Worker
 
-## 🛠️ Tecnologías utilizadas
+## 👩‍💻 Acerca de la creadora
 
-| Tecnología | Uso |
-| --- | --- |
-| **HTML5** | Estructura de la aplicación |
-| **CSS3** | Diseño, estilos y adaptación a diferentes pantallas |
-| **JavaScript** | Interacción y funcionalidades |
+Soy **Kelly Reyes**, estudiante de Informática y futura desarrolladora de software en Panamá. Me interesan el desarrollo de aplicaciones, la tecnología y el análisis de datos.
 
-## 🚀 Cómo abrir el proyecto
+🌱 **Siempre aprendiendo, siempre creando.**
 
-1. Descarga o clona este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
-3. Para habilitar cuentas reales y datos en la nube, configura primero el servicio de autenticación.
+📸 [Instagram: @kellyreyes_14](https://www.instagram.com/kellyreyes_14/)
 
-## 🔒 Privacidad y seguridad
+## 🔐 Seguridad y limitaciones
 
-**Importante:** La autenticación y el almacenamiento seguro de los perfiles requieren configuración antes de poner la aplicación a disposición del público.
+- El archivo original `index.html` se conserva de momento, con referencias internas al nombre anterior.
+- ALÉA se abre desde `alea.html`, que muestra la aplicación existente sin modificar su lógica.
+- El servicio offline guarda archivos estáticos; **no garantiza que funcionen sin internet la autenticación, la sincronización o los servicios externos**.
+- Antes de usar cuentas reales, configura Supabase Auth, la tabla `ritual_profiles` y políticas RLS. Nunca incluyas claves privadas en el código.
+- Comprueba privacidad y consentimiento antes de guardar información personal o sensible.
 
-- Configurar **Supabase Auth** y la tabla `ritual_profiles` con políticas **RLS**.
-- Utilizar solamente la URL del proyecto y una clave pública/publishable en `window.RITUAL_CLOUD`; **nunca** publicar claves `service_role` ni secretos.
-- Verificar consentimiento, tratamiento de datos sensibles, privacidad y eliminación de información antes del despliegue.
-- No utilizar la aplicación para sustituir orientación médica profesional.
+## 📁 Archivos principales
 
-## 📬 Conecta conmigo
-
-📸 **Instagram:** [@kellyreyes_14](https://www.instagram.com/kellyreyes_14/)
-
-💻 **GitHub:** [@kellyreyespro](https://github.com/kellyreyespro)
+| Archivo | Función |
+|---|---|
+| `alea.html` | Entrada de la aplicación instalable |
+| `index.html` | Interfaz original de Mi Ritual |
+| `manifest.webmanifest` | Nombre, icono y configuración de instalación |
+| `sw.js` | Caché básica para recursos estáticos |
+| `alea-icon.svg` | Icono de ALÉA |
 
 ---
 
-<div align="center">
-
-**💜 Mi Ritual · v0.1**
-
-Hecho con creatividad, curiosidad y ganas de seguir aprendiendo.
-
-</div>
+<div align="center">💜 **ALÉA · Primera versión instalable**</div>
